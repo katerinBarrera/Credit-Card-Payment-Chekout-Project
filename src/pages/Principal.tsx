@@ -1,4 +1,6 @@
 
+import React from "react";
+
 const Principal = () => {
     return (
         <div className="bg-blue-50 h-screen" >
