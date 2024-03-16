@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "react-app",
+    "plugin:react/recommended",
+    "prettier",
+    "eslint-config-prettier",
+    "plugin:react/tsx-runtime"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-undef": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used"
+      }
+    ],
+    "no-empty-function": "error",
+    "no-extra-semi": "error",
+    "no-unused-expressions": "error",
+    "react/prop-types": "off"
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
+}
