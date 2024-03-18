@@ -1,7 +1,8 @@
 # Credit Card Payment Project
 
 
-This project is a complete credit card payment system that follows a seamless flow from entering basic information to confirming the payment. It utilizes Redux for state management, Git for version control, Yarn as the package manager, various styling libraries such as Tailwind CSS and DaisyUI, ESLint for maintaining clean code, and Prettier for code formatting. Additionally, it includes tests for both components and utility functions.
+This project is a complete credit card payment system that follows a seamless flow from entering basic information to confirming the payment. 
+It utilizes Redux for state management, Git for version control, Yarn as the package manager, various styling libraries such as Tailwind CSS and DaisyUI, ESLint for maintaining clean code, and Prettier for code formatting. Additionally, it includes tests for both components and utility functions.
 
 #Installation
 To install and run this project locally, follow these steps:
@@ -13,7 +14,9 @@ Start the application using yarn start.
 
 
 #Usage
-Once the project is installed and running, you can access it through your web browser. Follow the specific instructions provided in the project for proper operation. The payment flow should guide you through entering basic information, providing card details, and confirming the payment.
+Once the project is installed and running, you can access it through your web browser. 
+Follow the specific instructions provided in the project for proper operation. 
+The payment flow should guide you through entering basic information, providing card details, and confirming the payment.
 
 #Technologies Used
 React
