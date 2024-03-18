@@ -121,12 +121,10 @@ const RenderCardInformation = ({
         className='inp-primary text-[13px] '
         value={data?.typeId || ''}
         onChange={({ target }) => handleChangeCardInformation('typeId', target.value)}>
-        <option disabled selected>
-          Pick one
-        </option>
-        <option>CC</option>
-        <option>TI</option>
-        <option>Passports</option>
+        <option disabled>Pick one</option>
+        <option value={1}>CC</option>
+        <option value={2}>TI</option>
+        <option value={3}>Passports</option>
       </select>
       <InputComponent
         key='installments'
