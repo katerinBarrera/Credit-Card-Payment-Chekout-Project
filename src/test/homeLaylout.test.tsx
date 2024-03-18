@@ -34,6 +34,4 @@ describe('Principal Component', () => {
     fireEvent.click(decrementButton);
     expect(quantityDisplay.textContent).toBe('1');
   });
-
-  // Add more tests as needed
 });
