@@ -36,7 +36,10 @@
 */body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */ 
-  background-color: rgb(239 246 255);
+  background-color: rgb(239 246 255); 
+  min-height: 100vh;
+  min-width: 100vw;
+  
 }/*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
