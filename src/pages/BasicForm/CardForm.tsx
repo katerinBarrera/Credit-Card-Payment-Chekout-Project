@@ -120,8 +120,10 @@ const RenderCardInformation = ({
       <select
         className='inp-primary text-[13px] '
         value={data?.typeId || ''}
-        onChange={({ target }) => handleChangeCardInformation('typeId', target.value)}>
-        <option disabled>Pick one</option>
+        onChange={e => {
+          handleChangeCardInformation('typeId', Number(e.target.value));
+        }}>
+        <option value={''}>Pick one</option>
         <option value={1}>CC</option>
         <option value={2}>TI</option>
         <option value={3}>Passports</option>

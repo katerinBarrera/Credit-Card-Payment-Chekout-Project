@@ -362,8 +362,11 @@ const Principal = () => {
             {' '}
             Space Lamps
           </span>
-          <div className='py-4'>
+          <div className='py-4 flex- flex-col text-center justify-center'>
             <Carousel />
+            <span className='font-extralight text-gray-500 text-xs text-center'>
+              Slide to see more
+            </span>
             <div className='flex drop-shadow-lg  text-sm justify-between font-semibold bg-indigo-200 rounded-lg mx-4 text-white p-4'>
               <div>Space Lamps group</div>
               <div>{formatMoney(fullValue)}</div>
